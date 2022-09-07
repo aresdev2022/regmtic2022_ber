@@ -164,20 +164,3 @@ class InterfazRepositorio(Generic[T]):
             x = self.getValuesDBRef(x)
             data.append(x)
         return data
-
-    
- 
-
-
-
-
-
-
-
-    
-
-
-
-
-
-  
