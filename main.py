@@ -104,6 +104,7 @@ def crearMesa():
     data = request.get_json()
     json = miControladorMesa.create(data)
     return jsonify(json)
+
 @app.route("/mesas/<string:id>", methods=['PUT'])
 def modificarMesa(id):
     data =  request.get_json()
