@@ -28,4 +28,3 @@ class ResultadoRepositorio(InterfazRepositorio[Resultado]):
         }
         pipeline = [query1]
         return self.queryAggregation(pipeline)
-    
